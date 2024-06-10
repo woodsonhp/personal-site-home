@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-link img {
+  width: 75px; /* adjust as needed */
+  height: 75px; /* adjust as needed */
+  border-radius: 50%; /* makes the image circular */
+  background-color: transparent; /* makes the background transparent */
+  margin: 0 10px;
+}
+
+.logo-link img:hover {
+  transform: scale(1.1); /* 10% bigger */
+}
